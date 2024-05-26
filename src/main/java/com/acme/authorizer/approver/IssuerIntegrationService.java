@@ -1,6 +1,6 @@
 package com.acme.authorizer.approver;
 
-import com.acme.authorizer.capturer.IncomingMessage;
+import com.acme.authorizer.IncomingMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;

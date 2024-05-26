@@ -1,5 +1,6 @@
 package com.acme.authorizer.capturer;
 
+import com.acme.authorizer.IncomingMessage;
 import com.acme.authorizer.orchestrator.TransactionAuthorizationService;
 import com.corundumstudio.socketio.SocketIOServer;
 import com.corundumstudio.socketio.listener.DataListener;

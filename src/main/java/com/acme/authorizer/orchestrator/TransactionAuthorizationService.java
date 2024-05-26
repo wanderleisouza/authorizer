@@ -1,7 +1,7 @@
 package com.acme.authorizer.orchestrator;
 
 import com.acme.authorizer.approver.IssuerIntegrationService;
-import com.acme.authorizer.capturer.IncomingMessage;
+import com.acme.authorizer.IncomingMessage;
 import com.acme.authorizer.responder.OutcamingMessage;
 import com.acme.authorizer.responder.ResponderService;
 import com.acme.authorizer.router.RouterService;

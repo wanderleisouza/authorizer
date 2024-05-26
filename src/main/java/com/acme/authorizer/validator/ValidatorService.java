@@ -1,6 +1,6 @@
 package com.acme.authorizer.validator;
 
-import com.acme.authorizer.capturer.IncomingMessage;
+import com.acme.authorizer.IncomingMessage;
 import org.springframework.stereotype.Service;
 
 import java.util.Random;

@@ -1,5 +1,6 @@
 package com.acme.authorizer.capturer;
 
+import com.acme.authorizer.IncomingMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

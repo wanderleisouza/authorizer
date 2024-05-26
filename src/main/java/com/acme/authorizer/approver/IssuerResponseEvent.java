@@ -7,9 +7,9 @@ import org.springframework.context.ApplicationEvent;
 @Getter
 public class IssuerResponseEvent extends ApplicationEvent {
 
-    private IncomingMessage incomingMessage;
-    private Integer score;
-    private Boolean response;
+    private final IncomingMessage incomingMessage;
+    private final Integer score;
+    private final Boolean response;
 
     public IssuerResponseEvent(Object source, IncomingMessage incomingMessage, Integer score, Boolean response) {
         super(source);

@@ -1,5 +1,5 @@
 
-package com.acme.authorizer.capturer;
+package com.acme.authorizer.capturer.internal;
 
 import org.springframework.stereotype.Service;
 
